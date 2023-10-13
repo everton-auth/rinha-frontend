@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinha de FrontEnd</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>JSON Tree Viewer</h1>
+        <p>Simple JSON Viewer that runs completely on-client. No data exchange</p>
+        <button id="button--load-json" onclick="onClickLoadJson()">Load JSON</button>
+        <input type="file" accept=".json" id="input-no--display">
+    </main>
+    <div id="render-json-file--container">
+        <h1 id="json-file-title"></h1>
+        <div id="container-to-render">
+            
+        </div>
+    </div>
+</body>
+
+</html>
